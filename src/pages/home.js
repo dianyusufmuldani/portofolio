@@ -7,7 +7,6 @@ import { makeStyles } from "@material-ui/styles";
 import Bg from "../../src/assets/bg.png";
 import TextApp from "../component/textApp";
 import ImageProfile from "../../src/assets/profile.png";
-import SplashScreen from "../component/SplashScreen";
 import Rating from "@mui/material/Rating";
 import ImageNodejs from "../../src/assets/nodejs.png";
 
@@ -35,7 +34,6 @@ const Home = () => {
       }}
     >
       <NavBar />
-      <SplashScreen />
       <Grid container spacing={2} style={{ alignItems: "center" }}>
         <Grid item md={6} className={classes.identity}>
           <TextApp value={`Hello, I'am`} fontSize={38} fontWeight={"700"} />
