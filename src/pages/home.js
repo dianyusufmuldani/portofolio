@@ -10,6 +10,8 @@ import ImageProfile from "../../src/assets/profile.png";
 import Rating from "@mui/material/Rating";
 import ImageNodejs from "../../src/assets/nodejs.png";
 
+import ImageMaterialUi from "../../src/assets/materialui.png";
+
 const useStyles = makeStyles({
   identity: {
     textAlign: "center",
@@ -94,6 +96,7 @@ const Home = () => {
         spacing={2}
         data-aos="fade-right"
         data-aos-duration={1000}
+        style={{ marginBottom: 30 }}
       >
         <Grid item md={6} style={{ paddingLeft: 60, paddingRight: 60 }}>
           <h1 style={{ fontSize: 40, color: "#26B03D" }}>SKILLS</h1>
@@ -135,6 +138,7 @@ const Home = () => {
           md={12}
           style={{
             textAlign: "center",
+            backgroundColor: "#575957",
           }}
         >
           <h1 style={{ fontSize: 40, color: "#26B03D" }}>FUNDAMENTAL SKILLS</h1>
@@ -150,6 +154,18 @@ const Home = () => {
             style={{ width: 400, height: 280 }}
             alt="nodejs"
           />
+          <img
+            src={
+              "https://upload.wikimedia.org/wikipedia/commons/8/8e/Nextjs-logo.svg"
+            }
+            style={{ width: 300, height: 300 }}
+            alt="react"
+          />
+          <img
+            src={ImageMaterialUi}
+            style={{ width: 300, height: 300 }}
+            alt="react"
+          />
         </Grid>
       </Grid>
       <Grid
@@ -157,7 +173,8 @@ const Home = () => {
         spacing={2}
         data-aos="fade-right"
         data-aos-duration={1000}
-        style={{ backgroundColor: "#575957" }}
+        style={{ marginTop: 20 }}
+        // style={{ backgroundColor: "#575957" }}
       >
         <Grid items md={6} style={{ paddingLeft: 60 }}>
           <h2 style={{ fontSize: 30, color: "#26B03D" }}>
