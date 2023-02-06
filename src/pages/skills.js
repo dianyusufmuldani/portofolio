@@ -15,7 +15,7 @@ const Skills = () => {
         data-aos-duration={1000}
         style={{ marginBottom: 30 }}
       >
-        <Grid item md={6} style={{ paddingLeft: 60, paddingRight: 60 }}>
+        <Grid item md={6} style={{ paddingLeft: 80, paddingRight: 80 }}>
           <h1 style={{ fontSize: 40, color: "#26B03D" }}>SKILLS</h1>
           <TextApp
             value={`During this experience that I have, I have skills in doing several developers both web and mobile.`}

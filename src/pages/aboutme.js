@@ -2,12 +2,12 @@ import React from "react";
 import "aos/dist/aos.css";
 import { Grid } from "@mui/material";
 
-import TextApp from "./textApp";
+import TextApp from "../component/textApp";
 
 const AboutMe = () => {
   return (
-    <div id={"About Me"}>
-      <Grid container spacing={2} data-aos="fade-left" data-aos-duration={1000}>
+    <div id={"About Me"} style={{ height: "100%", width: "100%" }}>
+      <Grid container spacing={2} data-aos="fade" data-aos-duration={1000}>
         <Grid
           item
           md={6}
