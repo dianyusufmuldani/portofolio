@@ -1,13 +1,8 @@
-import React, { useEffect } from "react";
-import NavBar from "../component/navbar";
-import AOS from "aos";
+import React from "react";
+
 import "aos/dist/aos.css";
-import { Button, Grid } from "@mui/material";
-import { makeStyles } from "@material-ui/styles";
-import Bg from "../../src/assets/bg.png";
-import TextApp from "../component/textApp";
-import ImageProfile from "../../src/assets/profile.png";
-import Rating from "@mui/material/Rating";
+import { Grid } from "@mui/material";
+
 import ImageNodejs from "../../src/assets/nodejs.png";
 
 import ImageMaterialUi from "../../src/assets/materialui.png";

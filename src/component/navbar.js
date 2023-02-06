@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React from "react";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
@@ -21,11 +21,6 @@ function NavBar() {
 
   const handleCloseNavMenu = () => {
     setAnchorElNav(null);
-  };
-
-  const ref = useRef(null);
-  const handleScroll = () => {
-    ref.current?.scrollIntoView({ behavior: "smooth" });
   };
 
   return (

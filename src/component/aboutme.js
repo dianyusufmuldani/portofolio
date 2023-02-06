@@ -1,14 +1,8 @@
-import React, { useEffect } from "react";
-import NavBar from "../component/navbar";
-import AOS from "aos";
+import React from "react";
 import "aos/dist/aos.css";
-import { Button, Grid } from "@mui/material";
-import { makeStyles } from "@material-ui/styles";
-import Bg from "../../src/assets/bg.png";
+import { Grid } from "@mui/material";
+
 import TextApp from "./textApp";
-import ImageProfile from "../../src/assets/profile.png";
-import Rating from "@mui/material/Rating";
-import ImageNodejs from "../../src/assets/nodejs.png";
 
 const AboutMe = () => {
   return (

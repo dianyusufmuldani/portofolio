@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect } from "react";
 import NavBar from "../component/navbar";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -7,10 +7,6 @@ import { makeStyles } from "@material-ui/styles";
 import Bg from "../../src/assets/bg.png";
 import TextApp from "../component/textApp";
 import ImageProfile from "../../src/assets/profile.png";
-import Rating from "@mui/material/Rating";
-import ImageNodejs from "../../src/assets/nodejs.png";
-
-import ImageMaterialUi from "../../src/assets/materialui.png";
 import AboutMe from "../component/aboutme";
 import Skills from "./skills";
 import Fundamental from "./fundamental";
@@ -33,10 +29,7 @@ const Home = () => {
     AOS.init();
   }, []);
   const classes = useStyles();
-  const ref = useRef(null);
-  const handleScroll = () => {
-    ref.current?.scrollIntoView({ behavior: "smooth" });
-  };
+
   return (
     <div
       style={{
