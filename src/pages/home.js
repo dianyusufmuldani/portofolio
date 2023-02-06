@@ -38,14 +38,24 @@ const Home = () => {
     >
       <NavBar />
       <Grid container spacing={2} style={{ alignItems: "center" }}>
-        <Grid item md={6} className={classes.identity}>
+        <Grid
+          item
+          md={6}
+          className={classes.identity}
+          style={{
+            alignSelf: "center",
+            width: "100%",
+          }}
+        >
           <TextApp value={`Hello, I'am`} fontSize={38} fontWeight={"700"} />
           <h1 style={{ fontSize: 44, color: "#26B03D" }}>DIAN YUSUF MULDANI</h1>
+
           <TextApp
             value={`Frontend Developer React JS & React Native`}
-            fontSize={34}
+            fontSize={24}
             fontWeight={"700"}
           />
+
           <a href="https://wa.me/6285349394103">
             <Button
               variant="contained"
@@ -59,8 +69,8 @@ const Home = () => {
           <img
             src={ImageProfile}
             style={{
-              width: "70%",
-              height: 580,
+              width: "50%",
+              height: "50%",
             }}
             alt="profile"
           />
