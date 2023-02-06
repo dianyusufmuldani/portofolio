@@ -33,6 +33,7 @@ const Home = () => {
     <div
       style={{
         backgroundImage: `url(${Bg})`,
+        width: "100%",
       }}
     >
       <NavBar />
@@ -58,7 +59,7 @@ const Home = () => {
           <img
             src={ImageProfile}
             style={{
-              width: 450,
+              width: "70%",
               height: 580,
             }}
             alt="profile"
@@ -226,7 +227,11 @@ const Home = () => {
             />
           </a>
         </Grid>
-        <Grid items md={6} style={{ textAlign: "center" }}>
+        <Grid
+          items
+          md={6}
+          style={{ textAlign: "center", width: "100%", paddingLeft: 20 }}
+        >
           <img
             src={
               "https://www.freepnglogos.com/uploads/logo-gmail-png/logo-gmail-png-gmail-icon-download-png-and-vector-1.png"
@@ -247,12 +252,17 @@ const Home = () => {
         data-aos="fade-right"
         data-aos-duration={1000}
       >
-        <Grid items md={12} style={{ textAlign: "center", marginTop: 200 }}>
+        <Grid
+          items
+          md={12}
+          style={{ textAlign: "center", marginTop: 200, width: "100%" }}
+        >
           <TextApp
             value={"© copyright 2023 by Dian Yusuf Muldani"}
             fontSize={20}
             fontWeight={"300"}
           />
+
           <br />
           <br />
         </Grid>
