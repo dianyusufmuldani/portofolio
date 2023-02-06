@@ -58,8 +58,8 @@ const Home = () => {
           <img
             src={ImageProfile}
             style={{
-              width: 550,
-              height: 740,
+              width: 450,
+              height: 580,
             }}
             alt="profile"
           />
@@ -146,24 +146,24 @@ const Home = () => {
             src={
               "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
             }
-            style={{ width: 300, height: 300 }}
+            style={{ width: 250, height: 250, marginLeft: 20 }}
             alt="react"
           />
           <img
             src={ImageNodejs}
-            style={{ width: 400, height: 280 }}
+            style={{ width: 250, height: 220, marginLeft: 20 }}
             alt="nodejs"
           />
           <img
             src={
               "https://upload.wikimedia.org/wikipedia/commons/8/8e/Nextjs-logo.svg"
             }
-            style={{ width: 300, height: 300 }}
+            style={{ width: 250, height: 250, marginLeft: 20 }}
             alt="react"
           />
           <img
             src={ImageMaterialUi}
-            style={{ width: 300, height: 300 }}
+            style={{ width: 250, height: 250, marginLeft: 20 }}
             alt="react"
           />
         </Grid>
