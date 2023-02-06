@@ -12,6 +12,7 @@ const Profile = () => {
   const classes = useStyles();
   return (
     <div
+      id="Profile"
       style={{
         backgroundImage: `url('https://img.freepik.com/free-vector/white-abstract-background_23-2148817571.jpg')`,
       }}

@@ -1,4 +1,4 @@
-import * as React from "react";
+import React, { useRef } from "react";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
@@ -10,7 +10,7 @@ import Container from "@mui/material/Container";
 import Button from "@mui/material/Button";
 import MenuItem from "@mui/material/MenuItem";
 
-const pages = ["Skills", "Profile", "Social Media"];
+const pages = ["Skills", "About Me", "Fundamental"];
 
 function NavBar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -21,6 +21,11 @@ function NavBar() {
 
   const handleCloseNavMenu = () => {
     setAnchorElNav(null);
+  };
+
+  const ref = useRef(null);
+  const handleScroll = () => {
+    ref.current?.scrollIntoView({ behavior: "smooth" });
   };
 
   return (
@@ -115,13 +120,14 @@ function NavBar() {
             {pages.map((page) => (
               <Button
                 key={page}
-                onClick={handleCloseNavMenu}
+                // onClick={handleCloseNavMenu}
+                // onClick={onClick}
                 sx={{
                   my: 2,
                   color: "#BBBBBB",
                   display: "block",
                 }}
-                href={page}
+                href={`#${page}`}
               >
                 {page}
               </Button>
