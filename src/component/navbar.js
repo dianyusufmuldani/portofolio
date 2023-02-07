@@ -125,7 +125,7 @@ function NavBar() {
                 // href={`#${page}`}
                 href={
                   page === "Portofolio (PDF)"
-                    ? "https://drive.google.com/file/d/11EGcU8oEMCcD9lM0GwM6AAIWBt9hhQzn/view?usp=share_link"
+                    ? "https://drive.google.com/file/d/1LXs-_TE1twaQ9T3niaAGRVl3ZQ6AqQAw/view?usp=share_link"
                     : `#${page}`
                 }
               >
