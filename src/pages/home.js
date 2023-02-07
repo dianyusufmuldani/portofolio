@@ -10,6 +10,7 @@ import Skills from "./skills";
 import Fundamental from "./fundamental";
 import ContactApp from "./contact";
 import IntroductionApp from "./introduction";
+import Project from "./project";
 
 const Home = () => {
   useEffect(() => {
@@ -28,6 +29,7 @@ const Home = () => {
       <AboutMe />
       <Skills />
       <Fundamental />
+      <Project />
       <ContactApp />
       <Grid
         container

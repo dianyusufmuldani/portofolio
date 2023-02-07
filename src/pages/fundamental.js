@@ -1,16 +1,12 @@
 import React from "react";
-
 import "aos/dist/aos.css";
 import { Grid } from "@mui/material";
-
 import ImageNodejs from "../../src/assets/nodejs.png";
-
 import ImageMaterialUi from "../../src/assets/materialui.png";
 
 const Fundamental = () => {
   return (
     <div id={"Fundamental"}>
-      {" "}
       <Grid
         container
         spacing={2}

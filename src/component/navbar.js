@@ -10,7 +10,7 @@ import Container from "@mui/material/Container";
 import Button from "@mui/material/Button";
 import MenuItem from "@mui/material/MenuItem";
 
-const pages = ["Skills", "About Me", "Fundamental"];
+const pages = ["Skills", "About Me", "Fundamental", "Portofolio (PDF)"];
 
 function NavBar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -122,7 +122,12 @@ function NavBar() {
                   color: "#BBBBBB",
                   display: "block",
                 }}
-                href={`#${page}`}
+                // href={`#${page}`}
+                href={
+                  page === "Portofolio (PDF)"
+                    ? "https://drive.google.com/file/d/11EGcU8oEMCcD9lM0GwM6AAIWBt9hhQzn/view?usp=share_link"
+                    : `#${page}`
+                }
               >
                 {page}
               </Button>
